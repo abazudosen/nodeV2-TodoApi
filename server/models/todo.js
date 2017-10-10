@@ -7,11 +7,11 @@ var Todo = mongoose.model('Todo', {
         minlength: 1,
         trim: true
     },
-    completetd: {
+    completed: {
         type: Boolean,
         default: false
     },
-    completetdAt: {
+    completedAt: {
         type: Number,
         default: null
     }
